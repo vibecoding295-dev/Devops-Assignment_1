@@ -1,22 +1,18 @@
 
-# Campus Bites — Assignment 1
+# Campus Bites — DevOps Assignment 01
 
-**Course:** DevOps Fundamentals (SEST4663)  
-**Program:** BS Software Engineering  
+**Course:** DevOps Fundamentals (SEST4663)
+**Program:** BS Software Engineering
 **Semester:** Fall 2026
 
-## Project Overview
+## Project Description
 
-Campus Bites is a fictional university cafeteria information
-website built using plain HTML5 and CSS3.
+Campus Bites is a fictional university cafeteria
+information website developed using HTML5 and CSS3.
 
-## Pages
-
-- Home
-- Menu
-- Daily Specials and Deals
-- How to Order
-- Feedback and Contact
+The website provides information about cafeteria
+food, menu prices, daily deals, ordering instructions,
+and customer feedback.
 
 ## Technologies
 
@@ -25,27 +21,38 @@ website built using plain HTML5 and CSS3.
 - Git
 - GitHub
 
+## Project Pages
+
+1. Home
+2. Menu
+3. Daily Specials & Deals
+4. How to Order
+5. Feedback & Contact
+
 ## Project Structure
 
-- `src/` contains all five HTML pages.
-- `styles/style.css` contains the shared stylesheet.
+- src/ — HTML pages
+- styles/ — Shared CSS stylesheet
 
-## Team
+## Team Members
 
-- Ahmad Niazi — Team Lead
-- Husnain Ali Virk — Member
-- Muhammad Ibrahim — Member
+| Name | Role |
+|---|---|
+| Ahmad Niazi | Team Lead |
+| Husnain Ali Virk | Member |
+| Muhammad Ibrahim | Member |
 
-## Development Workflow
+## Git Workflow
 
-Feature branches are created from `develop`.
-Pull requests are reviewed before merging.
-The release is tested before production deployment.
+- main: Production
+- develop: Integration
+- feature branches: Individual page development
+- release/v1.0: Final QA and release
+
+## Running the Website
+
+Open src/index.html in your browser.
 
 ## Repository
 
-Paste the public GitHub repository URL here.
-
-## Running Locally
-
-Open `src/index.html` in a web browser.
+https://github.com/vibecoding295-dev/Devops-Assignment_1
